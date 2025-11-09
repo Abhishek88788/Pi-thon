@@ -31,3 +31,14 @@ name = "Abhishek"
 
 print(name[-1:-9:-1])
 
+#list methods
+
+fruits = ["apple", "banana", "cherry"]
+num = [5, 2, 9, 1, 5, 6]
+
+fruits.append("orange")  # Adding an element to the end of the list
+print(fruits)
+fruits.remove("banana")  # Removing an element from the list
+print(fruits)
+fruits.sort()  # Sorting the list
+print(fruits)
