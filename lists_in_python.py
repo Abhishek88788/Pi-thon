@@ -77,3 +77,5 @@ print("List after pop:", insert_list)
 # clear method
 insert_list.clear()  # Remove all elements from the list
 print("List after clear:", insert_list)
+
+#
