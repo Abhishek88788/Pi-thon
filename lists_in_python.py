@@ -63,11 +63,8 @@ print(insert_list)
 
 
 
-
-
-
-# # pop method
-# popped_element = insert_list.pop(3)  # Remove and return element at index 3
-# print("Popped element:", popped_element)
-# print("List after pop:", insert_lisat)
+# pop method
+popped_element = insert_list.pop(3)  # Remove and return element at index 3
+print("Popped element:", popped_element)
+print("List after pop:", insert_list)
 
