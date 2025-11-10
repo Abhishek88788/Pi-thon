@@ -68,3 +68,12 @@ popped_element = insert_list.pop(3)  # Remove and return element at index 3
 print("Popped element:", popped_element)
 print("List after pop:", insert_list)
 
+#what if we pop at index greater than length of list
+#popped_element = insert_list.pop(10)  # This will raise an IndexError
+#IndexError: pop index out of range
+#print("Popped element:", popped_element)
+#print("List after pop:", insert_list)
+
+# clear method
+insert_list.clear()  # Remove all elements from the list
+print("List after clear:", insert_list)
